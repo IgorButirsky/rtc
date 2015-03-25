@@ -19,7 +19,7 @@
     <platform name="android">
         <source-file src="src/android/com/mlsdev/phonertc/PhoneRTCPlugin.java" target-dir="src/com/mlsdev/phonertc" />
         <source-file src="src/android/com/mlsdev/phonertc/LooperThread.java" target-dir="src/com/mlsdev/phonertc" />
-        <source-file src="src/android/com/mlsdev/phonertc/Session.java" target-dir="src/com/mlsdev/phonertc" />
+        <source-file src="src/android/com/mlsdev/phonertc/WebRtcPeer.java" target-dir="src/com/mlsdev/phonertc" />
 		<source-file src="src/android/com/mlsdev/phonertc/SessionConfig.java" target-dir="src/com/mlsdev/phonertc" />
         <source-file src="src/android/com/mlsdev/phonertc/VideoGLView.java" target-dir="src/com/mlsdev/phonertc" />
     	<source-file src="src/android/com/mlsdev/phonertc/VideoConfig.java" target-dir="src/com/mlsdev/phonertc" />
