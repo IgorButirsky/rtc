@@ -4,9 +4,10 @@ import android.graphics.Point;
 import android.util.Log;
 import android.view.View;
 import android.webkit.WebView;
-import com.dooble.phonertc.VideoConfig;
-import com.dooble.phonertc.VideoGLView;
-import com.dooble.phonertc.VideoTrackRendererPair;
+//import com.mlsdev.phonertc.VideoConfig;
+//import com.mlsdev.phonertc.VideoGLView;
+//import com.mlsdev.phonertc.VideoTrackRendererPair;
+//import com.mlsdev.phonertc.WebRtcPeer;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.PluginResult;
@@ -20,7 +21,7 @@ import java.util.List;
 
 public class PhoneRTCPlugin  extends CordovaPlugin {
 
-    private static final String TAG = CustomRtcPluginV1.class.getSimpleName();
+    private static final String TAG = PhoneRTCPlugin.class.getSimpleName();
 
     private WebRtcPeer mClient;
     private VideoConfig _videoConfig;
@@ -31,7 +32,7 @@ public class PhoneRTCPlugin  extends CordovaPlugin {
     private VideoTrackRendererPair _localVideo;
     private CallbackContext _callbackContext;
 
-    public CustomRtcPlugin() {
+    public PhoneRTCPlugin() {
         _remoteVideos = new ArrayList<VideoTrackRendererPair>();
     }
 
